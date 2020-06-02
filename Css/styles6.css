@@ -1,0 +1,111 @@
+.navagation{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+/* sections */
+#day6{
+  /* background-image: url(); */
+  /* width: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 5% 0;
+}
+.Heading{
+  background-color: #9EBBD9;
+  width: 880px;
+  position: relative;
+  left: 511.5px;
+  margin-bottom: 3%;
+  /* border: black solid 10px; */
+}
+.header{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Cormorant Garamond', serif;
+}
+.Heading:hover{
+  border: solid black 10px;
+}
+
+#Contact{
+  text-align: center;
+  background-color: #343A40;
+}
+
+
+.outline:active{
+  text-decoration: underline;
+}
+.outline:hover{
+  border: solid 1px white;
+  border-radius: 8px;
+}
+/* .nav-item:active{
+  color: red;
+} */
+.Copy-right{
+  text-align: center;
+  margin-bottom: 0;
+  padding: 3% 0 5% 0;
+  color: white;
+}
+.social{
+  padding: 3% 1% 0 1%;
+  color: white;
+}
+.Copy-right:hover, .social:hover{
+  color: orange;
+
+}
+/* divs */
+.day{
+  border: solid white 10px;
+  background-color: #9EBBD9;
+  text-align: center;
+  padding: 3% 0;
+  width: 900px;
+}
+
+.day:hover{
+  border: solid black 10px;
+}
+
+/* Images */
+
+.img-6{
+  border: solid white 5px;
+  width: 400px;
+  /* float: right;
+  overflow: auto;    */
+}
+
+.img-6:hover{
+  border: solid black 5px;
+}
+
+/* Elements */
+
+h1, h2 {
+  text-align: left;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 3% 0;
+  font-size: 2rem;
+}
+p{
+  text-align: left;
+}
+
+
+.text-6{
+  padding-top: 3%;
+}
+h1, h2, p{
+  padding-left: 3%;
+}
+
+.day6-title{
+  font-size: 3rem;
+}
